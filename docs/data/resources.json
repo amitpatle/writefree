@@ -322,5 +322,221 @@
     "description": "Track reading goals and discover what to read next.",
     "url": "https://www.goodreads.com",
     "added": "2026-10-20"
+  },
+  {
+    "id": 44,
+    "name": "Hugging Face",
+    "category": "Open Source AI",
+    "description": "The hub for open models, datasets and demos.",
+    "url": "https://huggingface.co",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 45,
+    "name": "Ollama",
+    "category": "Open Source AI",
+    "description": "Run open LLMs locally with one command.",
+    "url": "https://ollama.com",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 46,
+    "name": "LM Studio",
+    "category": "Open Source AI",
+    "description": "Desktop app to download and chat with local models.",
+    "url": "https://lmstudio.ai",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 47,
+    "name": "llama.cpp",
+    "category": "Open Source AI",
+    "description": "Fast C/C++ engine for running GGUF models on any PC.",
+    "url": "https://github.com/ggml-org/llama.cpp",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 48,
+    "name": "Open WebUI",
+    "category": "Open Source AI",
+    "description": "Self-hosted ChatGPT-style interface for local models.",
+    "url": "https://openwebui.com",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 49,
+    "name": "Qwen",
+    "category": "Open Source AI",
+    "description": "Alibaba's open-weight model family on Hugging Face.",
+    "url": "https://huggingface.co/Qwen",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 50,
+    "name": "Llama",
+    "category": "Open Source AI",
+    "description": "Meta's open-weight models with a community license.",
+    "url": "https://www.llama.com",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 51,
+    "name": "Mistral AI",
+    "category": "Open Source AI",
+    "description": "European lab releasing open-weight models.",
+    "url": "https://mistral.ai",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 52,
+    "name": "Hugging Face Courses",
+    "category": "Open Source AI",
+    "description": "Free courses on LLMs, transformers and agents.",
+    "url": "https://huggingface.co/learn",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 53,
+    "name": "Karpathy: Zero to Hero",
+    "category": "Open Source AI",
+    "description": "Build neural nets and GPT from scratch, step by step.",
+    "url": "https://karpathy.ai/zero-to-hero.html",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 54,
+    "name": "Google Colab",
+    "category": "Open Source AI",
+    "description": "Free notebooks with GPU access for experiments.",
+    "url": "https://colab.research.google.com",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 55,
+    "name": "Kaggle",
+    "category": "Open Source AI",
+    "description": "Free datasets, notebooks, GPUs and ML courses.",
+    "url": "https://www.kaggle.com",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 56,
+    "name": "CS50",
+    "category": "B.Tech Basics",
+    "description": "Harvard's legendary free intro to computer science.",
+    "url": "https://cs50.harvard.edu/x",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 57,
+    "name": "NPTEL",
+    "category": "B.Tech Basics",
+    "description": "Free IIT/IISc course videos aligned to Indian syllabi.",
+    "url": "https://nptel.ac.in",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 58,
+    "name": "SWAYAM",
+    "category": "B.Tech Basics",
+    "description": "Government of India platform for free university courses.",
+    "url": "https://swayam.gov.in",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 59,
+    "name": "MIT OpenCourseWare",
+    "category": "B.Tech Basics",
+    "description": "Free lecture notes and videos from MIT courses.",
+    "url": "https://ocw.mit.edu",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 60,
+    "name": "The Missing Semester",
+    "category": "B.Tech Basics",
+    "description": "Shell, Git, vim and the tools college skips.",
+    "url": "https://missing.csail.mit.edu",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 61,
+    "name": "freeCodeCamp",
+    "category": "B.Tech Basics",
+    "description": "Free coding curriculum with projects and certificates.",
+    "url": "https://www.freecodecamp.org",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 62,
+    "name": "roadmap.sh",
+    "category": "B.Tech Basics",
+    "description": "Step-by-step roadmaps for developer careers.",
+    "url": "https://roadmap.sh",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 63,
+    "name": "MDN Web Docs",
+    "category": "B.Tech Basics",
+    "description": "The reference for HTML, CSS and JavaScript.",
+    "url": "https://developer.mozilla.org",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 64,
+    "name": "Pro Git Book",
+    "category": "B.Tech Basics",
+    "description": "Free official book to master Git.",
+    "url": "https://git-scm.com/book",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 65,
+    "name": "GitHub Skills",
+    "category": "B.Tech Basics",
+    "description": "Hands-on mini courses for GitHub and Actions.",
+    "url": "https://skills.github.com",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 66,
+    "name": "Linux Journey",
+    "category": "B.Tech Basics",
+    "description": "Learn Linux basics from zero.",
+    "url": "https://linuxjourney.com",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 67,
+    "name": "VisuAlgo",
+    "category": "B.Tech Basics",
+    "description": "Animated data structures and algorithms.",
+    "url": "https://visualgo.net",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 68,
+    "name": "GeeksforGeeks",
+    "category": "B.Tech Basics",
+    "description": "DSA, OS, DBMS and CN notes for exam and interview prep.",
+    "url": "https://www.geeksforgeeks.org",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 69,
+    "name": "LeetCode",
+    "category": "B.Tech Basics",
+    "description": "Practice DSA problems for placements (free tier).",
+    "url": "https://leetcode.com",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 70,
+    "name": "Exercism",
+    "category": "B.Tech Basics",
+    "description": "Free coding practice with mentor feedback.",
+    "url": "https://exercism.org",
+    "added": "2026-10-20"
   }
 ]
