@@ -90,8 +90,16 @@ writefree/
 
 Know a great free resource?
 
+<p align="center">
+  <img src="contribute.svg" alt="WriteFree" width="80%">
+</p>
+
+
+
 1. Open a [suggestion issue](https://github.com/amitpatle/writefree/issues/new?template=suggest-resource.md), **or**
 2. Add an entry to `public/data/resources.json` and open a pull request:
+
+
 
 ```json
 {
