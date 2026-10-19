@@ -7,7 +7,7 @@
 
   const root = document.documentElement;
   root.dataset.theme = safe(() => localStorage.getItem("theme"), null) ||
-    (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    "dark";
   $("theme").onclick = () => {
     root.dataset.theme = root.dataset.theme === "dark" ? "light" : "dark";
     safe(() => localStorage.setItem("theme", root.dataset.theme));
@@ -23,18 +23,19 @@
   function card(r) {
     const c = el("article", "card");
     const top = el("div", "top");
-    const fav = el("button", "fav" + (favs.has(r.id) ? " on" : ""), "♥");
+    const fav = el("button", "fav" + (favs.has(r.id) ? " on" : ""), favs.has(r.id) ? "★" : "☆");
     fav.setAttribute("aria-label", "Save " + r.name);
     fav.onclick = () => {
       favs.has(r.id) ? favs.delete(r.id) : favs.add(r.id);
       safe(() => localStorage.setItem("favs", JSON.stringify([...favs])));
       fav.classList.toggle("on");
+      fav.textContent = favs.has(r.id) ? "★" : "☆";
     };
     const isNew = r.added && (Date.now() - new Date(r.added)) < 30 * 864e5;
     const left = el("span", "tag", r.category);
     if (isNew) left.append(el("span", "new", "NEW"));
     top.append(left, fav);
-    const a = el("a", "visit", "Visit →");
+    const a = el("a", "visit", "[ OPEN ]");
     a.href = r.url; a.target = "_blank"; a.rel = "noopener noreferrer";
     c.append(top, el("h3", "", r.name), el("p", "", r.description), a);
     return c;
@@ -59,7 +60,7 @@
     }));
   }
 
-  search.addEventListener("input", render);
+  let t; search.addEventListener("input", () => { clearTimeout(t); t = setTimeout(render, 120); });
   fetch("data/resources.json")
     .then((r) => r.json())
     .then((d) => { all = d; buildFilters(); render(); })

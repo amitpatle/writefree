@@ -1,37 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>WriteFree – Free Resources for Beginner Writers</title>
-<meta name="description" content="Curated, cost-free tools and learning resources to start and grow your writing journey.">
+<title>WRITEFREE // Free Resources</title>
+<meta name="description" content="Free tools and guides for beginner writers, open-source AI and B.Tech essentials.">
+<meta name="theme-color" content="#000000">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="hero">
-  <nav class="nav">
-    <span class="logo">✍️ WriteFree</span>
-    <button id="theme" aria-label="Toggle dark mode">🌓</button>
-  </nav>
-  <h1>Start writing. <span>Pay nothing.</span></h1>
-  <p>Hand-picked free tools, guides and communities for beginner writers, open-source AI and B.Tech essentials.</p>
-  <input id="search" type="search" placeholder="Search resources…" aria-label="Search resources">
-</header>
-<aside class="sponsor">
-  <span>♥ Free forever. Sponsors keep the servers running.</span>
-  <a href="https://github.com/sponsors/amitpatle">Become a sponsor</a>
-</aside>
-<main>
-  <div id="filters" class="filters"></div>
-  <p id="count" class="count"></p>
-  <section id="grid" class="grid"></section>
-  <p id="empty" class="empty" hidden>No resources found. Try another search.</p>
-  <p class="suggest"><a class="btn" href="https://github.com/amitpatle/writefree/issues/new?template=suggest-resource.md">+ Suggest a resource</a></p>
-</main>
-<footer>
-  <p>Built by Amit. Found a great free resource? <a href="https://github.com/amitpatle/writefree/issues">Suggest it</a>.</p>
-  <p><a href="https://github.com/sponsors/amitpatle">♥ Sponsor this project</a></p>
-</footer>
+<div class="wrap">
+  <header class="hero">
+    <nav class="nav">
+      <span class="logo">[ WRITEFREE_v1.0 ]</span>
+      <button id="theme" aria-label="Toggle theme">INVERT</button>
+    </nav>
+    <h1>Free resources. Zero cost.<span class="cursor" aria-hidden="true"></span></h1>
+    <p class="sub">Writing tools, open-source AI and B.Tech essentials. Curated. Searchable.</p>
+    <label class="prompt"><span>&gt;_</span><input id="search" type="search" placeholder="query resources..." aria-label="Search resources" autocomplete="off"></label>
+  </header>
+  <aside class="sponsor">
+    <span>SYS: free forever. sponsors keep the servers running.</span>
+    <a href="https://github.com/sponsors/amitpatle">[ BECOME SPONSOR ]</a>
+  </aside>
+  <main>
+    <div id="filters" class="filters"></div>
+    <p id="count" class="count"></p>
+    <section id="grid" class="grid"></section>
+    <p id="empty" class="empty" hidden>ERROR 404: no matching resources.</p>
+    <p class="suggest"><a class="btn" href="https://github.com/amitpatle/writefree/issues/new?template=suggest-resource.md">+ Suggest resource</a></p>
+  </main>
+  <footer>
+    <p>Built by Amit. <a href="https://github.com/amitpatle/writefree">Source on GitHub</a></p>
+  </footer>
+</div>
 <script src="js/app.js"></script>
 </body>
 </html>
