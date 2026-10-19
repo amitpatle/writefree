@@ -30,7 +30,10 @@
       safe(() => localStorage.setItem("favs", JSON.stringify([...favs])));
       fav.classList.toggle("on");
     };
-    top.append(el("span", "tag", r.category), fav);
+    const isNew = r.added && (Date.now() - new Date(r.added)) < 30 * 864e5;
+    const left = el("span", "tag", r.category);
+    if (isNew) left.append(el("span", "new", "NEW"));
+    top.append(left, fav);
     const a = el("a", "visit", "Visit →");
     a.href = r.url; a.target = "_blank"; a.rel = "noopener noreferrer";
     c.append(top, el("h3", "", r.name), el("p", "", r.description), a);

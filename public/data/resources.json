@@ -53,7 +53,8 @@
     "name": "Reedsy Studio",
     "category": "Tools",
     "description": "Free book editor that formats your manuscript.",
-    "url": "https://reedsy.com/studio"
+    "url": "https://reedsy.com/studio",
+    "added": "2026-10-20"
   },
   {
     "id": 9,
@@ -102,7 +103,8 @@
     "name": "Standard Ebooks",
     "category": "Read",
     "description": "Beautifully formatted public-domain ebooks.",
-    "url": "https://standardebooks.org"
+    "url": "https://standardebooks.org",
+    "added": "2026-10-20"
   },
   {
     "id": 16,
@@ -144,7 +146,8 @@
     "name": "Substack",
     "category": "Publish",
     "description": "Start a free newsletter and grow readers.",
-    "url": "https://substack.com"
+    "url": "https://substack.com",
+    "added": "2026-10-20"
   },
   {
     "id": 22,
@@ -159,5 +162,165 @@
     "category": "Publish",
     "description": "Free ebook distribution to major stores.",
     "url": "https://www.draft2digital.com"
+  },
+  {
+    "id": 24,
+    "name": "ChatGPT",
+    "category": "AI",
+    "description": "Free-tier AI assistant for brainstorming, outlining and feedback.",
+    "url": "https://chatgpt.com",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 25,
+    "name": "Claude",
+    "category": "AI",
+    "description": "Free-tier AI assistant well suited to long-form drafting and editing.",
+    "url": "https://claude.ai",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 26,
+    "name": "Google Gemini",
+    "category": "AI",
+    "description": "Free-tier AI helper that works with Google Docs and Gmail.",
+    "url": "https://gemini.google.com",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 27,
+    "name": "DeepL Write",
+    "category": "AI",
+    "description": "Free AI rewriting tool that improves clarity and tone.",
+    "url": "https://www.deepl.com/write",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 28,
+    "name": "QuillBot",
+    "category": "AI",
+    "description": "Paraphraser and grammar checker with a free plan.",
+    "url": "https://quillbot.com",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 29,
+    "name": "Grammarly",
+    "category": "Editing",
+    "description": "Popular grammar and spelling checker with a free tier.",
+    "url": "https://www.grammarly.com",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 30,
+    "name": "WordCounter",
+    "category": "Editing",
+    "description": "Instant word count, reading time and keyword density.",
+    "url": "https://wordcounter.net",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 31,
+    "name": "Google Docs",
+    "category": "Tools",
+    "description": "Free, cloud-based writing with real-time collaboration.",
+    "url": "https://docs.google.com",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 32,
+    "name": "Notion",
+    "category": "Tools",
+    "description": "Notes, outlines and research in one free workspace.",
+    "url": "https://www.notion.so",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 33,
+    "name": "Canva Docs",
+    "category": "Tools",
+    "description": "Design-friendly docs with a free plan.",
+    "url": "https://www.canva.com",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 34,
+    "name": "ONLYOFFICE",
+    "category": "Tools",
+    "description": "Free online office suite with Word-style editing.",
+    "url": "https://www.onlyoffice.com",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 35,
+    "name": "Zoho Writer",
+    "category": "Tools",
+    "description": "Free online word processor with built-in grammar help.",
+    "url": "https://www.zoho.com/writer",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 36,
+    "name": "Etherpad",
+    "category": "Tools",
+    "description": "Open-source, real-time collaborative text editor.",
+    "url": "https://etherpad.org",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 37,
+    "name": "Bear",
+    "category": "Tools",
+    "description": "Clean markdown notes app for Apple devices (free tier).",
+    "url": "https://bear.app",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 38,
+    "name": "Google Trends",
+    "category": "Learn",
+    "description": "Spot topics people are searching for right now.",
+    "url": "https://trends.google.com",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 39,
+    "name": "Royal Road",
+    "category": "Publish",
+    "description": "Popular home for web serials and serialized fiction.",
+    "url": "https://www.royalroad.com",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 40,
+    "name": "Hashnode",
+    "category": "Publish",
+    "description": "Free blogging platform for developers and tech writers.",
+    "url": "https://hashnode.com",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 41,
+    "name": "r/writing",
+    "category": "Community",
+    "description": "Large Reddit community for feedback and advice.",
+    "url": "https://www.reddit.com/r/writing",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 42,
+    "name": "r/WritingPrompts",
+    "category": "Community",
+    "description": "Daily story prompts and reader responses.",
+    "url": "https://www.reddit.com/r/WritingPrompts",
+    "added": "2026-10-20"
+  },
+  {
+    "id": 43,
+    "name": "Goodreads",
+    "category": "Community",
+    "description": "Track reading goals and discover what to read next.",
+    "url": "https://www.goodreads.com",
+    "added": "2026-10-20"
   }
 ]
